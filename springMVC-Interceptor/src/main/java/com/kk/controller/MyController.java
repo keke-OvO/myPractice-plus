@@ -11,6 +11,11 @@ public class MyController {
         return "login";
     }
 
+    @RequestMapping("/loginSuc")
+    public String loginSuc(){
+        return "suc";
+    }
+
     @RequestMapping("/regist")
     public String regist(){
         return "register";

@@ -32,7 +32,7 @@
                     <div class="col-lg-6 bg-white">
                         <div class="form d-flex align-items-center">
                             <div class="content">
-                                <form method="post" action="/login" class="form-validate" id="loginFrom">
+                                <form method="post" action="/loginSuc" class="form-validate" id="loginFrom">
                                     <div class="form-group">
                                         <input id="login-username" type="text" name="userName" required data-msg="请输入用户名" placeholder="用户名" value="admin" class="input-material">
                                     </div>
@@ -41,12 +41,12 @@
                                     </div>
                                     <button id="login" type="submit" class="btn btn-primary">登录</button>
                                     <div style="margin-top: -40px;">
-                                        <!-- <input type="checkbox"  id="check1"/>&nbsp;<span>记住密码</span>
-                    	<input type="checkbox" id="check2"/>&nbsp;<span>自动登录</span> -->
+
                                         <div class="custom-control custom-checkbox " style="float: right;">
                                             <input type="checkbox" class="custom-control-input" id="check2">
                                             <label class="custom-control-label" for="check2">自动登录</label>
                                         </div>
+
                                         <div class="custom-control custom-checkbox " style="float: right;">
                                             <input type="checkbox" class="custom-control-input" id="check1">
                                             <label class="custom-control-label" for="check1">记住密码&nbsp;&nbsp;</label>
@@ -54,7 +54,7 @@
                                     </div>
                                 </form>
                                 <br />
-                                <small>没有账号?</small><a href="register.jsp" class="signup">&nbsp;注册</a>
+                                <small>没有账号?</small><a href="/regist" class="signup">&nbsp;注册</a>
                             </div>
                         </div>
                     </div>
@@ -109,23 +109,6 @@
                 localStorage.setItem("check1", check1);
                 localStorage.setItem("check2", check2);
             })
-
-            /*$("#check2").click(function(){
-    			var flag=$('#check2').prop('checked');
-    			if(flag){
-    				var userName=$("#login-username").val();
-	    			var passWord=$("#login-password").val();
-	    			$.ajax({
-	    				type:"post",
-	    				url:"http://localhost:8080/powers/pow/regUsers",
-	    				data:{"userName":userName,"passWord":passWord},
-	    				async:true,
-	    				success:function(res){
-	    					alert(res);
-	    				}
-	    			});
-    			}
-    		})*/
         })
     </script>
 </body>
