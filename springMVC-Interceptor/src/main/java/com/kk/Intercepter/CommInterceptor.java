@@ -21,11 +21,16 @@ public class CommInterceptor extends HandlerInterceptorAdapter {
         if ("GET".equalsIgnoreCase(request.getMethod())) {
             Date date = new Date();
             System.out.println("===>GET放行");
-            log.info(date + "\n==============preHandle执行顺序: 1、preHandle===============");
+            log.info(date + "\n==============preHandle执行顺序: get、preHandle===============");
             return true;
         }
-        log.info("===拦截===");
-        return false;
+        if ("post".equalsIgnoreCase(request.getMethod())) {
+            Date date = new Date();
+            System.out.println("===>post放行");
+            log.info(date + "\n==============preHandle执行顺序: post、preHandle===============");
+            return true;
+        }
+        return true;
     }
 
     @Override
