@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springMVC-Interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC-JSON" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/springMVC-JSON/pom.xml" />
         <option value="$PROJECT_DIR$/面试题/pom.xml" />
       </set>
     </option>

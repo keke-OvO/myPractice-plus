@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="LeetCode" target="1.5" />
+      <module name="springMVC-JSON" target="1.8" />
       <module name="面试题" target="1.5" />
     </bytecodeTargetLevel>
   </component>
