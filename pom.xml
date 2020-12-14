@@ -11,7 +11,8 @@
     <modules>
         <module>LeetCode</module>
         <module>mianshi</module>
-        <module>springMVC-Interceptor</module>
+        <module>springMVC-Interceptor-Json</module>
+
     </modules>
 
 </project>
