@@ -12,5 +12,7 @@
 </head>
 <body>
     <h1>success!!</h1>
+    <h1>${name}</h1>
+    <h1>${pwd}</h1>
 </body>
 </html>
