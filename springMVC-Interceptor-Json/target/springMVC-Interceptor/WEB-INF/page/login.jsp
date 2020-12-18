@@ -32,12 +32,16 @@
                     <div class="col-lg-6 bg-white">
                         <div class="form d-flex align-items-center">
                             <div class="content">
-                                <form method="post" action="/loginSuc" class="form-validate" id="loginFrom">
+                                <form method="post" action="${pageContext.request.contextPath}/loginSuc" class="form-validate" id="loginFrom">
                                     <div class="form-group">
-                                        <input id="login-username" type="text" name="userName" required data-msg="请输入用户名" placeholder="用户名" value="admin" class="input-material">
+                                        <input type="text" id="login-username" name="userName" class="input-material"
+                                               required data-msg="请输入用户名" placeholder="用户名"
+                                               value="admin">
                                     </div>
                                     <div class="form-group">
-                                        <input id="login-password" type="password" name="passWord" required data-msg="请输入密码" placeholder="密码" class="input-material">
+                                        <input id="login-password" type="password" name="passWord"
+                                               required data-msg="请输入密码" placeholder="密码"
+                                               class="input-material">
                                     </div>
                                     <button id="login" type="submit" class="btn btn-primary">登录</button>
                                     <div style="margin-top: -40px;">
@@ -66,6 +70,7 @@
     <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.bootcss.com/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
     <!--表单验证-->
     <!-- Main File-->
     <script src="js/front.js"></script>

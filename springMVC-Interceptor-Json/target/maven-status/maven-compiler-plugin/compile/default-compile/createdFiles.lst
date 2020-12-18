@@ -1,5 +1,6 @@
-com\kk\pojo\User.class
 com\kk\utils\JsonUtil.class
-com\kk\controller\MyController.class
 com\kk\Intercepter\CommInterceptor.class
+com\kk\pojo\User.class
+com\kk\controller\MyController.class
+com\kk\controller\AjaxController.class
 com\kk\controller\TestJson.class

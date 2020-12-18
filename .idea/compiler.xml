@@ -8,9 +8,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springMVC-Interceptor-Json" />
         <module name="LeeteCode" />
         <module name="mianshi" />
+        <module name="springMVC-Interceptor-Json" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<jsp:forward page="/login"></jsp:forward>
+<jsp:forward page="/toajax"></jsp:forward>
 </body>
 
 </html>
