@@ -69,7 +69,7 @@ public class BinarySearch {
 
         //优化查询条件
         if (key < arr[low] || key > arr[hgt] || low > hgt) {
-            return -2;
+            return error;
         }
 
         if (key < arr[mid]) {
