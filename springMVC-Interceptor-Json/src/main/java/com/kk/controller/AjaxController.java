@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -14,17 +15,22 @@ import java.util.ArrayList;
 public class AjaxController {
 
 
-    @RequestMapping("toajax")
-    public String toAjax(){
-        return "ajaxTest";
+    @RequestMapping("/toajax")
+    public String toAjax() {
+        return "ajaxdate";
+    }
+
+    @RequestMapping("/date")
+    public void dateAjax(Data date) {
+        System.out.println(date);
     }
 
 
     @RequestMapping("/ajax")
     public void ajaxDemo(String name, HttpServletResponse response) throws IOException {
-        if ("admin".equals(name)){
+        if ("admin".equals(name)) {
             response.getWriter().println("I Love You!");
-        }else response.getWriter().println("FALSE");
+        } else response.getWriter().println("FALSE");
     }
 
 

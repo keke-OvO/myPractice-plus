@@ -8,17 +8,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springMVC-Interceptor-Json" />
         <module name="LeeteCode" />
         <module name="mianshi" />
-        <module name="springMVC-Interceptor-Json" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="LeetCode" target="1.5" />
+      <module name="sbt-swagger" target="1.8" />
       <module name="springMVC-ajax" target="1.5" />
       <module name="springMVC-Interceptor (1)" target="1.8" />
       <module name="springMVC-JSON" target="1.8" />
       <module name="面试题" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sbt-swagger" options="-parameters" />
+    </option>
   </component>
 </project>
