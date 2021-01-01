@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:14 +0800] "GET / HTTP/1.1" 200 1166 http-bio-8080-exec-2 4451
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:14 +0800] "GET /layui/css/layui.css HTTP/1.1" 304 - http-bio-8080-exec-3 65
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:15 +0800] "GET /layui/layui.js HTTP/1.1" 304 - http-bio-8080-exec-5 25
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:15 +0800] "GET /layui/lay/modules/jquery.js HTTP/1.1" 304 - http-bio-8080-exec-6 22
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:16 +0800] "GET /layui/lay/modules/form.js HTTP/1.1" 304 - http-bio-8080-exec-7 18
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:16 +0800] "GET /layui/lay/modules/layer.js HTTP/1.1" 304 - http-bio-8080-exec-8 15
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:16 +0800] "GET /layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 - http-bio-8080-exec-9 19
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:17 +0800] "GET /time1 HTTP/1.1" 200 13 http-bio-8080-exec-10 393
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:48:22 +0800] "GET /time2 HTTP/1.1" 200 21 http-bio-8080-exec-4 43
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:50:06 +0800] "GET /time2 HTTP/1.1" 200 21 http-bio-8080-exec-2 1344
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:53:47 +0800] "GET /time2 HTTP/1.1" 500 4177 http-bio-8080-exec-2 516
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:55:05 +0800] "GET /time2 HTTP/1.1" 500 4177 http-bio-8080-exec-1 793
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:55:08 +0800] "GET /time2 HTTP/1.1" 500 4177 http-bio-8080-exec-4 20
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:57:32 +0800] "GET /time2 HTTP/1.1" 200 21 http-bio-8080-exec-2 753
+0:0:0:0:0:0:0:1 - - [01/Jan/2021:18:58:41 +0800] "GET /time2 HTTP/1.1" 200 21 http-bio-8080-exec-2 1035

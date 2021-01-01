@@ -53,7 +53,7 @@ public class TestJson {
     @RequestMapping("/time2")
     @ResponseBody
     public String jsonT2() throws JsonProcessingException {
-        return JsonUtil.getJson(new Date(),"yyyy-MM-dd HH:mm:ss");
+        return JsonUtil.getJson(new Date("1999/12/8 9:59:59"), "yyyy-MM-dd HH:mm:ss");
     }
 
 
