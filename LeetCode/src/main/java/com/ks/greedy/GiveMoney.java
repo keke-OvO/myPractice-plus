@@ -6,7 +6,7 @@ package com.ks.greedy;
  * @Description 贪心算法，经典例子
  */
 
-public class Shares {
+public class GiveMoney {
 
     public static void main(String[] args) {
         greedyGiveMoney(251);
